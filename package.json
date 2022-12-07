@@ -1,6 +1,6 @@
 {
-  "name": "capacitor-sign-in-with-apple",
-  "version": "0.0.1",
+  "name": "@changenode/capacitor-sign-in-with-apple",
+  "version": "1.0.0",
   "description": "Native Sign In With Apple CapacitorJS Plugin",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
