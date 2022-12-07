@@ -1,6 +1,6 @@
 {
   "name": "@changenode/capacitor-sign-in-with-apple",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Native Sign In With Apple CapacitorJS Plugin",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -9,7 +9,7 @@
   "files": [
     "dist/",
     "ios/Plugin/",
-    "CapacitorSignInWithApple.podspec"
+    "ChangenodeCapacitorSignInWithApple.podspec"
   ],
   "author": "Will Iverson",
   "license": "MIT",
