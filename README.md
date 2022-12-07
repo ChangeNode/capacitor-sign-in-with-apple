@@ -13,7 +13,7 @@ This is only designed to work with the current version of Capacitor (4+ as of th
 ## Install
 
 ```bash
-npm install capacitor-sign-in-with-apple
+npm install @changenode/capacitor-sign-in-with-apple
 npx cap sync
 ```
 
