@@ -6,8 +6,10 @@ export class SignInWithAppleWeb
   extends WebPlugin
   implements SignInWithApplePlugin
 {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+  async auth(): Promise<{ response: any }> {
+    console.log('ECHO', 'Not available for web');
+    return new Promise(resolve => {
+      resolve({ response: null })
+    });
   }
 }

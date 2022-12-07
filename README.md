@@ -13,25 +13,38 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
+* [`auth()`](#auth)
+* [Interfaces](#interfaces)
 
 </docgen-index>
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
+### auth()
 
 ```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
+auth() => Promise<{ response: SignInWithAppleSuccess | any; }>
 ```
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
-
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+**Returns:** <code>Promise&lt;{ response: any; }&gt;</code>
 
 --------------------
+
+
+### Interfaces
+
+
+#### SignInWithAppleSuccess
+
+| Prop                    | Type                |
+| ----------------------- | ------------------- |
+| **`user`**              | <code>string</code> |
+| **`state`**             | <code>string</code> |
+| **`email`**             | <code>string</code> |
+| **`givenName`**         | <code>string</code> |
+| **`familyName`**        | <code>string</code> |
+| **`identityToken`**     | <code>string</code> |
+| **`authorizationCode`** | <code>string</code> |
 
 </docgen-api>

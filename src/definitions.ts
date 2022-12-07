@@ -1,3 +1,13 @@
 export interface SignInWithApplePlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  auth(): Promise<{response: SignInWithAppleSuccess | any}>;
+}
+
+interface SignInWithAppleSuccess {
+  user: string | undefined;
+  state: string | undefined;
+  email: string | undefined;
+  givenName: string | undefined;
+  familyName: string | undefined;
+  identityToken: string | undefined;
+  authorizationCode: string | undefined;
 }
