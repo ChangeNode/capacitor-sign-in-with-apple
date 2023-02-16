@@ -151,3 +151,6 @@ Now, you should see the following error in the error box:
 ```
 Error: The operation couldn’t be completed. (com.apple.AuthenticationServices.AuthorizationError error 1000.)
 ```
+
+This indicates that the plugin has been installed and is now (technically) working. The next step is to set up
+Sign In With Apple functionality via Apple and add that to the project.
