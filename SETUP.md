@@ -24,7 +24,7 @@ I chose Skeleton project, TypeScript, ESLint, and Prettier.
 
 https://changenode.com/articles/sveltekit-wcapacitorjs
 
-npm add @sveltejs/adapter-static@latest
+`npm add @sveltejs/adapter-static@latest`
 
 Update the svelte.config.js file to:
 
@@ -74,19 +74,19 @@ Wrote site to "build"
 
 https://capacitorjs.com/solution/svelte
 
-npx cap init TestApp com.example.testapp --web-dir=build
+`npx cap init TestApp com.example.testapp --web-dir=build`
 
 This will setup the capactior.config.ts file.
 
-npm i @capacitor/ios @capacitor/android
+`npm i @capacitor/ios @capacitor/android`
 
 Adds both targets to the package.json file.
 
-npx cap add android
+`npx cap add android`
 
 Adds configuration and initial Android build.
 
-npx cap add ios
+`npx cap add ios`
 
 Adds configuration and initial iOS build.
 
@@ -94,15 +94,16 @@ Adds configuration and initial iOS build.
 
 https://github.com/ChangeNode/capacitor-sign-in-with-apple
 
+```
 npm install @changenode/capacitor-sign-in-with-apple
-
 npx cap sync
+```
 
 Verify that the app builds and runs with `npx cap run ios`.
 
 Change the contents of /src/routes/+page.svelte to as follows:
 
-```
+```html
 <script lang="ts">
 	import { Capacitor } from '@capacitor/core';
 	
