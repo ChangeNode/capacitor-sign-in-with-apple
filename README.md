@@ -3,7 +3,6 @@
 Native Sign In With Apple CapacitorJS Plugin
 
 [![npm](https://img.shields.io/npm/v/@changenode/capacitor-sign-in-with-apple)](https://www.npmjs.com/package/@changenode/capacitor-sign-in-with-apple)
-[![npm](https://img.shields.io/npm/dt/@changenode/https://img.shields.io/npm/v/@changenode/capacitor-sign-in-with-apple)](https://www.npmjs.com/package/@changenode/capacitor-sign-in-with-apple)
 
 [Get your own badge](https://shields.io/)
 
